@@ -1,0 +1,15 @@
+{
+    "name": "hello-ifb",
+    "version": "1.0.0",
+    "description": "Hello IFB: NodeJs",
+    "main": "hello-ifb.js",
+    "scripts": {
+        "test": "jest --coverage --runInBand --forceExit --verbose false"
+    },
+    "dependencies": {
+        "zerion-js": "^0.0.7"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}
